@@ -1,35 +1,35 @@
 
-# # STRINGS: string is a data type that stores sequence of character.
+# STRINGS: string is a data type that stores sequence of character.
 
-# # Escape Sequence Character :- kuch special character jinka kaam hota hai formatting dena like | (tab\t), (next line\n) |
+# Escape Sequence Character :- kuch special character jinka kaam hota hai formatting dena like | (tab\t), (next line\n) |
 
-# str1 = "vishnu's"
-# str2 = 'kumar'
-# print(str1+str2)   # CONCATENATE -> vishnu'skumar
+str1 = "vishnu's"
+str2 = 'kumar'
+print(str1+str2)   # CONCATENATE -> vishnu'skumar
 
-# print(len(str1))   # LENGTH    -> 8
+print(len(str1))   # LENGTH    -> 8
 
-# print(str1[3])     # INDEX     -> h  NOTE: you can only access using index not manipulate like str1[3] = h
-
-
-
-# # SLICING :- parts of string .       NOTE:  end index is not include for e.g. str[1:3] here 3 is not included
-# str = "ApnaCollege"
-# print(str[1:4])     #                           --> pna
-# print(str[:4])      # same as 0:4               --> Apna
-# print(str[1:])      # same as str[1:len(str)]   --> pnaCollege
-# print(str[-4:-2])   # -1 is for last index      --> le
+print(str1[3])     # INDEX     -> h  NOTE: you can only access using index not manipulate like str1[3] = h
 
 
 
-# # STRING FUNCTIONS:- 
-# stri = 'i am a coder.'
+# SLICING :- parts of string .       NOTE:  end index is not include for e.g. str[1:3] here 3 is not included
+str = "ApnaCollege"
+print(str[1:4])     #                           --> pna
+print(str[:4])      # same as 0:4               --> Apna
+print(str[1:])      # same as str[1:len(str)]   --> pnaCollege
+print(str[-4:-2])   # -1 is for last index      --> le
 
-# print(stri.endswith("er."))       # returns true if string ends with substr
-# print(stri.capitalize())          # capitalize 1st char. jo v changes ho rahe hai wo original me nhi, for orig. -> stri = stri.capitalize()
-# print(stri.replace("i am","You")) # replace all occurences of old with new
-# print(stri.find("a"))            # returns 1st index of 1st occurence
-# print(stri.count("a"))           # counts the ocuurence of substr in string
+
+
+# STRING FUNCTIONS:- 
+stri = 'i am a coder.'
+
+print(stri.endswith("er."))       # returns true if string ends with substr
+print(stri.capitalize())          # capitalize 1st char. jo v changes ho rahe hai wo original me nhi, for orig. -> stri = stri.capitalize()
+print(stri.replace("i am","You")) # replace all occurences of old with new
+print(stri.find("a"))            # returns 1st index of 1st occurence
+print(stri.count("a"))           # counts the ocuurence of substr in string
 
 
 
@@ -65,16 +65,20 @@ marks >= 90,      grade = "A"
 #     print(grade,"D")       
 
 
-num1 = int(input("Enter 1st: "))
-num2 = int(input("Enter 2nd: "))
-num3 = int(input("Enter 3rd: "))
 
-if(num1 > num2 and num1 > num3):
-    print("num1")
-elif(num2 > num1 and num2 > num3):
-    print("num2")
-else:
-    print("num3")    
+# num1 = int(input("Enter 1st: "))
+# num2 = int(input("Enter 2nd: "))
+# num3 = int(input("Enter 3rd: "))
+
+# if(num1 > num2 and num1 > num3):
+#     print("num1")
+# elif(num2 > num1 and num2 > num3):
+#     print("num2")
+# else:
+#     print("num3")    
+
+
+
 
 
 
