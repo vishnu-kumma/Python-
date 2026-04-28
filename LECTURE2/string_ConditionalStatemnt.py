@@ -9,7 +9,7 @@ print(str1+str2)   # CONCATENATE -> vishnu'skumar
 
 print(len(str1))   # LENGTH    -> 8
 
-print(str1[3])     # INDEX     -> h  NOTE: you can only access using index not manipulate like str1[3] = h
+print(str1[3])     # INDEX     -> h  NOTE: you can only access using index not manipulate like str1[3] = h i.e. immutable
 
 
 
